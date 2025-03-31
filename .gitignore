@@ -1,0 +1,24 @@
+
+# ESP-IDF build system
+build/
+sdkconfig
+sdkconfig.old
+*.bin
+*.elf
+*.map
+
+# Python
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
+
+# IDF environment
+.env/
+.export*
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
