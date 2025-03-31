@@ -1,3 +1,4 @@
+set(EXTRA_COMPONENT_DIRS "oasis")
 
 if(DEFINED ENV{OASIS_FLAVOR})
     set(OASIS_FLAVOR $ENV{OASIS_FLAVOR})
@@ -19,3 +20,4 @@ cmake_minimum_required(VERSION 3.16)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(oasis)
+
